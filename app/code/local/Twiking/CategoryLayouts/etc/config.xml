@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Twiking_CategoryLayouts>
+            <version>0.1.0</version>
+        </Twiking_CategoryLayouts>
+    </modules>
+    <global>
+        <models>
+            <categorylayouts>
+                <class>Twiking_CategoryLayouts_Model</class>
+            </categorylayouts>
+        </models>
+        <events>
+            <controller_action_layout_load_before>
+                <observers>
+                    <twiking_add_handles>
+                        <class>categorylayouts/observer</class>
+                        <method>addHandles</method>
+                    </twiking_add_handles>
+                </observers>
+            </controller_action_layout_load_before>
+        </events>
+        <page>
+            <layouts>
+                <category_custom_design_1 translate="label">
+                    <label>Category Custom Design 1</label>
+                    <template>page/2columns-left.phtml</template>
+                </category_custom_design_1>
+                <category_custom_design_2 translate="label">
+                    <label>Category Custom Design 2</label>
+                    <template>page/2columns-left.phtml</template>
+                </category_custom_design_2>
+                <category_custom_design_3 translate="label">
+                    <label>Category Custom Design 3</label>
+                    <template>page/2columns-left.phtml</template>
+                </category_custom_design_3>
+            </layouts>
+        </page>
+    </global>
+</config>

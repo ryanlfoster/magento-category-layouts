@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Twiking_CategoryLayouts>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Twiking_CategoryLayouts>
+    </modules>
+</config>
