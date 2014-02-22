@@ -10,10 +10,16 @@ The module provides 3 new page layouts:
 * Category Custom Design 3
 
 These page layouts creates new custom layout handles where you can apply your changes.
-E.g: <category_custom_design_1> 
+E.g: 
+```xml 
+<category_custom_design_1> 
+```
 
 ## Category Level Layout Handles
 
 The module creates layout handles per level.
 
-E.g: <category_level_1>
+E.g: 
+```xml 
+<category_level_1> 
+```
